@@ -2,7 +2,7 @@
 /*
 Plugin Name: Posts 2 Posts
 Description: Create many-to-many relationships between all types of posts.
-Version: 1.7.5
+Version: 1.7.6
 Requires at least: 6.0
 Requires PHP: 5.6
 Author: scribu
@@ -12,7 +12,7 @@ Text Domain: posts-to-posts
 Domain Path: /lang
 */
 
-define( 'P2P_PLUGIN_VERSION', '1.7.5' );
+define( 'P2P_PLUGIN_VERSION', '1.7.6' );
 
 define( 'P2P_TEXTDOMAIN', 'posts-to-posts' );
 

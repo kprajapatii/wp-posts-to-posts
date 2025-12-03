@@ -3,8 +3,8 @@ Contributors: scribu, ciobi, ayecode, stiofansisland
 Tags: connections, custom post types, relationships, many-to-many, users
 Requires at least: 6.0
 Requires PHP: 5.6
-Tested up to: 6.7
-Stable tag: 1.7.5
+Tested up to: 6.9
+Stable tag: 1.7.6
 
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -60,8 +60,9 @@ Additional info can be found on the [wiki](http://github.com/scribu/wp-posts-to-
 
 == Changelog ==
 
-= 1.7.2 - 2025-06-TBD =
+= 1.7.6 - 2025-12-03 =
 * PHP 8.3 compatibility check - CHANGED
+* WordPress 6.9 compatibility check - CHANGED
 
 = 1.7.5 - 2025-02-19 =
 * Function _load_textdomain_just_in_time was called incorrectly - FIXED
