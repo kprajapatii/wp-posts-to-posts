@@ -60,6 +60,9 @@ Additional info can be found on the [wiki](http://github.com/scribu/wp-posts-to-
 
 == Changelog ==
 
+= 1.7.7 - 2026-03-TBD =
+* Fix compatibility issues with Ultimate Dashboard plugin - FIXED
+
 = 1.7.6 - 2025-12-03 =
 * PHP 8.3 compatibility check - CHANGED
 * WordPress 6.9 compatibility check - CHANGED

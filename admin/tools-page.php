@@ -15,10 +15,13 @@ class P2P_Tools_Page extends scbAdminPage {
 	}
 
 	function init_args() {
-		$this->args = array(
-			'page_title' => __( 'Connection Types', P2P_TEXTDOMAIN ),
-			'page_slug' => 'connection-types',
-			'parent' => 'tools.php'
+		$this->args = wp_parse_args(
+			array(
+				'page_title' => __( 'Connection Types', P2P_TEXTDOMAIN ),
+				'page_slug' => 'connection-types',
+				'parent' => 'tools.php'
+			),
+			$this->args
 		);
 	}
 
